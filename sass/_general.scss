@@ -9,13 +9,13 @@ $dark-charcoal: hsl(24, 5%, 18%);
 
 @font-face {
   font-family: "Outfit";
-  src: url(../assets/fonts/outfit/Outfit.ttf) format("ttf");
+  src: url(../assets/fonts/outfit/Outfit.woff2) format("woff2");
   font-weight: 400 700;
 }
 
 @font-face {
-  font-family: "YoungSeif";
-  src: url(../assets/fonts/young-serif/YoungSerif.ttf);
+  font-family: "YoungSerif";
+  src: url(../assets/fonts/young-serif/YoungSerif.woff2);
   font-weight: 400;
 }
 
@@ -23,4 +23,11 @@ $dark-charcoal: hsl(24, 5%, 18%);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+.nutmeg {
+  color: $nutmeg;
 }

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(../assets/fonts/outfit/Outfit.ttf) format("ttf");
+  font-weight: 400 700;
+}
+@font-face {
+  font-family: "YoungSeif";
+  src: url(../assets/fonts/young-serif/YoungSerif.ttf);
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

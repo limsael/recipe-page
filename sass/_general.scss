@@ -26,8 +26,12 @@ $dark-charcoal: hsl(24, 5%, 18%);
 }
 
 body {
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit";
 }
 .nutmeg {
   color: $nutmeg;
+}
+
+.card__subtitle {
+  font-family: "YoungSerif";
 }

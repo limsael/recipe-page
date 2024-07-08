@@ -17,12 +17,44 @@
 
   &__time {
     background-color: $rose-white;
-    margin: 1rem 2.5rem 2rem;
+    margin: 1rem 2.5rem 0;
     padding: 0.625rem 2rem 0;
     border-radius: 10px;
 
     h3 {
+      font-family: "Outfit";
+      color: $dark-raspberry;
       margin-block: 1rem;
+    }
+
+    ul {
+      padding: 1rem;
+
+      li {
+        margin-block: 1rem;
+        color: $wenge-brown;
+
+        span {
+          color: $dark-charcoal;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  &__ingredients {
+    padding: 1rem 2rem;
+
+    h2 {
+      margin-block: 1rem;
+    }
+    ul {
+      padding-left: 16px;
+
+      li {
+        margin-block: 1rem;
+        color: $wenge-brown;
+      }
     }
   }
 }

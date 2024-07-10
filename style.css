@@ -22,8 +22,28 @@ body {
   color: hsl(14, 45%, 36%);
 }
 
+.card__item-title {
+  font-weight: 700;
+}
+
 .card__subtitle {
   font-family: "YoungSerif";
+}
+
+hr {
+  margin-top: 2rem;
+  background-color: hsl(30, 18%, 87%);
+  height: 1px;
+  border: none;
+}
+
+.card__list {
+  margin-left: 1rem;
+}
+.card__list li {
+  padding-left: 1rem;
+  margin-block: 1rem;
+  color: hsl(30, 10%, 34%);
 }
 
 .card__image {
@@ -32,7 +52,7 @@ body {
 .card__title {
   font-family: "YoungSerif", serif;
   margin: 2rem 2.5rem 1rem;
-  color: hsl(30, 10%, 34%);
+  color: hsl(24, 5%, 18%);
 }
 .card__description {
   margin: 1rem 2.5rem 2rem;
@@ -48,18 +68,14 @@ body {
 .card__time h3 {
   font-family: "Outfit";
   color: hsl(332, 51%, 32%);
-  margin-block: 1rem;
+  margin-block-start: 1rem;
 }
 .card__time ul {
   padding: 1rem;
 }
 .card__time ul li {
-  margin-block: 1rem;
+  margin-block-end: 1rem;
   color: hsl(30, 10%, 34%);
-}
-.card__time ul li span {
-  color: hsl(24, 5%, 18%);
-  font-weight: 600;
 }
 .card__ingredients {
   padding: 1rem 2rem;
@@ -67,12 +83,70 @@ body {
 .card__ingredients h2 {
   margin-block: 1rem;
 }
-.card__ingredients ul {
-  padding-left: 16px;
+.card__instructions {
+  padding: 1rem 2rem;
 }
-.card__ingredients ul li {
-  margin-block: 1rem;
+.card__instructions h2 {
+  margin-block-end: 1rem;
+}
+.card__instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.card__nutrition {
+  padding: 1rem 2rem;
+}
+.card__nutrition h2 {
+  margin-block-end: 1rem;
+}
+.card__nutrition p {
+  margin-block-end: 1rem;
   color: hsl(30, 10%, 34%);
+}
+.card__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.card__table tr {
+  display: block;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-block: 1rem;
+  padding: 10px;
+  color: hsl(30, 10%, 34%);
+}
+.card__table tr td {
+  text-align-last: left;
+  padding: 5px;
+}
+.card__tables {
+  display: flex;
+}
+
+@media screen and (min-width: 662px) {
+  body {
+    padding: 2rem;
+    background-color: hsl(330, 100%, 98%);
+  }
+  .card {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 600px;
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    height: 100%;
+  }
+  .card__title, .card__description, .card__time {
+    margin-left: 0;
+  }
+  .card__ingredients, .card__instructions, .card__nutrition {
+    padding: 1rem 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card {
+    width: 630px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,10 +28,31 @@ $dark-charcoal: hsl(24, 5%, 18%);
 body {
   font-family: "Outfit";
 }
+
 .nutmeg {
   color: $nutmeg;
+}
+.card__item-title {
+  font-weight: 700;
 }
 
 .card__subtitle {
   font-family: "YoungSerif";
+}
+
+hr {
+  margin-top: 2rem;
+  background-color: $light-grey;
+  height: 1px;
+  border: none;
+}
+
+.card__list {
+  margin-left: 1rem;
+
+  li {
+    padding-left: 1rem;
+    margin-block: 1rem;
+    color: $wenge-brown;
+  }
 }

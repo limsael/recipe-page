@@ -6,7 +6,7 @@
   &__title {
     font-family: "YoungSerif", serif;
     margin: 2rem 2.5rem 1rem;
-    color: $wenge-brown;
+    color: $dark-charcoal;
   }
 
   &__description {
@@ -24,20 +24,15 @@
     h3 {
       font-family: "Outfit";
       color: $dark-raspberry;
-      margin-block: 1rem;
+      margin-block-start: 1rem;
     }
 
     ul {
       padding: 1rem;
 
       li {
-        margin-block: 1rem;
+        margin-block-end: 1rem;
         color: $wenge-brown;
-
-        span {
-          color: $dark-charcoal;
-          font-weight: 600;
-        }
       }
     }
   }
@@ -48,13 +43,89 @@
     h2 {
       margin-block: 1rem;
     }
-    ul {
-      padding-left: 16px;
+  }
 
-      li {
-        margin-block: 1rem;
-        color: $wenge-brown;
+  &__instructions {
+    padding: 1rem 2rem;
+
+    h2 {
+      margin-block-end: 1rem;
+    }
+
+    li {
+      &::marker {
+        color: $nutmeg;
+        font-weight: 600;
       }
     }
+  }
+
+  &__nutrition {
+    padding: 1rem 2rem;
+
+    h2 {
+      margin-block-end: 1rem;
+    }
+
+    p {
+      margin-block-end: 1rem;
+      color: $wenge-brown;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+
+    tr {
+      display: block;
+      border-bottom: 1px solid $light-grey;
+      margin-block: 1rem;
+      padding: 10px;
+      color: $wenge-brown;
+
+      td {
+        text-align-last: left;
+        padding: 5px;
+      }
+    }
+  }
+
+  &__tables {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 662px) {
+  body {
+    padding: 2rem;
+    background-color: $rose-white;
+  }
+  .card {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 600px;
+    border: 1px solid $white;
+    background-color: $white;
+    border-radius: 25px;
+    height: 100%;
+
+    &__title,
+    &__description,
+    &__time {
+      margin-left: 0;
+    }
+
+    &__ingredients,
+    &__instructions,
+    &__nutrition {
+      padding: 1rem 0;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 630px;
   }
 }

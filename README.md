@@ -7,7 +7,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Overview](#overview)
   - [The challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
   - [Screenshot](./Screenshot.png)
-  - [Links](#links)
+  - [Links](https://www.frontendmentor.io/solutions/omelette-recipe-page-html-sass-fvuY-0uNuh)
 
 ## Overview
 

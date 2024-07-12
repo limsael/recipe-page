@@ -77,28 +77,29 @@
     width: 100%;
     border-collapse: collapse;
 
-    tr {
-      display: block;
+    td {
       border-bottom: 1px solid $light-grey;
-      margin-block: 1rem;
-      padding: 10px;
+      padding: 0.625rem;
+      font-weight: 500;
       color: $wenge-brown;
+    }
 
-      td {
-        text-align-last: left;
-        padding: 5px;
+    .nutmeg {
+      color: $nutmeg;
+      font-weight: 700;
+    }
+
+    tr {
+      &:last-of-type td {
+        border: none;
       }
     }
-  }
-
-  &__tables {
-    display: flex;
   }
 }
 
 @media screen and (min-width: 662px) {
   body {
-    padding: 2rem;
+    padding: 2.5rem;
     background-color: $rose-white;
   }
   .card {

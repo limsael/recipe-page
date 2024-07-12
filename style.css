@@ -107,24 +107,23 @@ hr {
   width: 100%;
   border-collapse: collapse;
 }
-.card__table tr {
-  display: block;
+.card__table td {
   border-bottom: 1px solid hsl(30, 18%, 87%);
-  margin-block: 1rem;
-  padding: 10px;
+  padding: 0.625rem;
+  font-weight: 500;
   color: hsl(30, 10%, 34%);
 }
-.card__table tr td {
-  text-align-last: left;
-  padding: 5px;
+.card__table .nutmeg {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }
-.card__tables {
-  display: flex;
+.card__table tr:last-of-type td {
+  border: none;
 }
 
 @media screen and (min-width: 662px) {
   body {
-    padding: 2rem;
+    padding: 2.5rem;
     background-color: hsl(330, 100%, 98%);
   }
   .card {

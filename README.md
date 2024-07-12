@@ -17,7 +17,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/omelette-recipe-page-html-sass-fvuY-0uNuh)
 - Live Site URL: [Live Site URL](https://limsael.github.io/recipe-page/)
 
 ## My process
